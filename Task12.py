@@ -3,6 +3,5 @@ import re
 
 
 text = input()
-print(text)
-
-re.sub()
+changed_text = re.sub(r'[?,.!;:-]', ' ', text)
+print(changed_text)
