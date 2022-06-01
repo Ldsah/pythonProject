@@ -9,7 +9,7 @@ right_border = len(t) - 1
 
 while left_border != right_border:
     middle = int((left_border + right_border) / 2)
-    if (t[middle] > target):
+    if t[middle] > target:
         left_border = middle + 1
     else:
         right_border = middle
