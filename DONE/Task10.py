@@ -21,5 +21,5 @@ while i != half_text + 1:
         dismatch_pair += 1
     i = i + 1
     j = j - 1
-print("Количество несовпадающих символов: ", end="")
+print("Количество несовпадающих символов: ")
 print(dismatch_pair)
